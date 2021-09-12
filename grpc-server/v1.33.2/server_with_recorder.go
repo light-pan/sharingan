@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	"github.com/didi/sharingan/recorder/koala_grpc/hook"
+	"github.com/light-pan/sharingan/recorder/koala_grpc/hook"
 )
 
 const (

@@ -5,10 +5,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/conf"
-	"github.com/didi/sharingan/replayer-agent/common/handlers/ignore"
-	"github.com/didi/sharingan/replayer-agent/logic/outbound"
-	"github.com/didi/sharingan/replayer-agent/logic/outbound/match"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/conf"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/ignore"
+	"github.com/light-pan/sharingan/replayer-agent/logic/outbound"
+	"github.com/light-pan/sharingan/replayer-agent/logic/outbound/match"
 )
 
 var BasePort int

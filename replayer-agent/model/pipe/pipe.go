@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
-	"github.com/didi/sharingan/replayer-agent/utils/helper"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/utils/helper"
 
 	"github.com/pkg/errors"
 )

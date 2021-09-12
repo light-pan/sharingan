@@ -13,13 +13,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/didi/sharingan/replayer-agent/common/global"
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
-	"github.com/didi/sharingan/replayer-agent/logic/outbound"
-	"github.com/didi/sharingan/replayer-agent/logic/replayed"
-	"github.com/didi/sharingan/replayer-agent/model/nuwaplt"
-	"github.com/didi/sharingan/replayer-agent/model/replaying"
-	"github.com/didi/sharingan/replayer-agent/model/station"
+	"github.com/light-pan/sharingan/replayer-agent/common/global"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/logic/outbound"
+	"github.com/light-pan/sharingan/replayer-agent/logic/replayed"
+	"github.com/light-pan/sharingan/replayer-agent/model/nuwaplt"
+	"github.com/light-pan/sharingan/replayer-agent/model/replaying"
+	"github.com/light-pan/sharingan/replayer-agent/model/station"
 )
 
 var hooks []func()

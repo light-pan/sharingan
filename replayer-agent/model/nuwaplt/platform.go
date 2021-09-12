@@ -7,10 +7,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/conf"
-	"github.com/didi/sharingan/replayer-agent/common/handlers/httpclient"
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
-	"github.com/didi/sharingan/replayer-agent/utils/helper"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/conf"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/httpclient"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/utils/helper"
 )
 
 const (

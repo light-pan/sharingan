@@ -8,10 +8,10 @@ import (
 	"os"
 	"runtime"
 
-	recorderPKG "github.com/didi/sharingan/recorder"
-	"github.com/didi/sharingan/recorder/koala_grpc/hook"
-	"github.com/didi/sharingan/recorder/koala_grpc/logger"
-	"github.com/didi/sharingan/recorder/koala_grpc/recording"
+	recorderPKG "github.com/light-pan/sharingan/recorder"
+	"github.com/light-pan/sharingan/recorder/koala_grpc/hook"
+	"github.com/light-pan/sharingan/recorder/koala_grpc/logger"
+	"github.com/light-pan/sharingan/recorder/koala_grpc/recording"
 )
 
 // GetCurrentGoRoutineID GetCurrentGoRoutineID

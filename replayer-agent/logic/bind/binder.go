@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
 
 	"github.com/ppltools/binding"
 )

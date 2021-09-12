@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/conf"
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/conf"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
 )
 
 func WriteFile(fpath string, content []byte) error {

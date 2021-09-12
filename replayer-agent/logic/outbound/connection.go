@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/conf"
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
-	"github.com/didi/sharingan/replayer-agent/logic/outbound/match"
-	"github.com/didi/sharingan/replayer-agent/model/pool"
-	"github.com/didi/sharingan/replayer-agent/model/replaying"
-	"github.com/didi/sharingan/replayer-agent/utils/helper"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/conf"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/logic/outbound/match"
+	"github.com/light-pan/sharingan/replayer-agent/model/pool"
+	"github.com/light-pan/sharingan/replayer-agent/model/replaying"
+	"github.com/light-pan/sharingan/replayer-agent/utils/helper"
 	"go.uber.org/zap/zapcore"
 )
 

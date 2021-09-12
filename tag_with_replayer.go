@@ -5,8 +5,8 @@ package sharingan
 import (
 	"log"
 
-	"github.com/didi/sharingan/replayer"
-	"github.com/didi/sharingan/replayer/fastmock"
+	"github.com/light-pan/sharingan/replayer"
+	"github.com/light-pan/sharingan/replayer/fastmock"
 )
 
 // GetCurrentGoRoutineID get current goroutineID incase SetDelegatedFromGoRoutineID

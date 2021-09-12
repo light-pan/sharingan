@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/didi/sharingan/replayer-agent/utils/protocol/pmysql/command"
+	"github.com/light-pan/sharingan/replayer-agent/utils/protocol/pmysql/command"
 	"github.com/modern-go/parse"
 	"github.com/stretchr/testify/require"
 )

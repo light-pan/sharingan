@@ -1,4 +1,4 @@
-// Replayer demo for how to import package "github.com/didi/sharingan/replayer"
+// Replayer demo for how to import package "github.com/light-pan/sharingan/replayer"
 package main
 
 import (

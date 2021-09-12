@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/didi/sharingan/replayer-agent/idl"
-	"github.com/didi/sharingan/replayer-agent/model/nuwaplt"
+	"github.com/light-pan/sharingan/replayer-agent/idl"
+	"github.com/light-pan/sharingan/replayer-agent/model/nuwaplt"
 )
 
 type DSL struct {

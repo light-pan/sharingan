@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/didi/sharingan"
+	_ "github.com/light-pan/sharingan"
 )
 
 const waitFlagParseTime = 10

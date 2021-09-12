@@ -1,4 +1,4 @@
-module github.com/didi/sharingan/replayer-agent
+module github.com/light-pan/sharingan/replayer-agent
 
 go 1.13
 

@@ -14,14 +14,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/ignore"
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
-	"github.com/didi/sharingan/replayer-agent/model/nuwaplt"
-	"github.com/didi/sharingan/replayer-agent/model/pool"
-	"github.com/didi/sharingan/replayer-agent/model/protocol"
-	"github.com/didi/sharingan/replayer-agent/model/recording"
-	"github.com/didi/sharingan/replayer-agent/model/replaying"
-	"github.com/didi/sharingan/replayer-agent/utils/helper"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/ignore"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/model/nuwaplt"
+	"github.com/light-pan/sharingan/replayer-agent/model/pool"
+	"github.com/light-pan/sharingan/replayer-agent/model/protocol"
+	"github.com/light-pan/sharingan/replayer-agent/model/recording"
+	"github.com/light-pan/sharingan/replayer-agent/model/replaying"
+	"github.com/light-pan/sharingan/replayer-agent/utils/helper"
 )
 
 const (

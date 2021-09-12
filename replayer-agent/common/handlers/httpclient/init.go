@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
 )
 
 type HttpClient struct {

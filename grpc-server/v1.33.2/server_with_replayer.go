@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc/internal/transport"
 	"google.golang.org/grpc/metadata"
 
-    "github.com/didi/sharingan/replayer/fastmock"
+	"github.com/light-pan/sharingan/replayer/fastmock"
 )
 
 func handleReplayerHeader(stream *transport.Stream) {

@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/didi/sharingan/replayer-agent/common/handlers/tlog"
-	"github.com/didi/sharingan/replayer-agent/model/esmodel"
-	"github.com/didi/sharingan/replayer-agent/model/recording"
-	"github.com/didi/sharingan/replayer-agent/model/replaying"
-	"github.com/didi/sharingan/replayer-agent/utils/fastcgi"
-	"github.com/didi/sharingan/replayer-agent/utils/helper"
+	"github.com/light-pan/sharingan/replayer-agent/common/handlers/tlog"
+	"github.com/light-pan/sharingan/replayer-agent/model/esmodel"
+	"github.com/light-pan/sharingan/replayer-agent/model/recording"
+	"github.com/light-pan/sharingan/replayer-agent/model/replaying"
+	"github.com/light-pan/sharingan/replayer-agent/utils/fastcgi"
+	"github.com/light-pan/sharingan/replayer-agent/utils/helper"
 )
 
 //TODO: 处理redis数据存map
