@@ -3,6 +3,10 @@
     {
       "name":"example",
       "data":"[{\"key\":\"listen-addr\",\"value\":\"127.0.0.1:9999\"}]"
+    },
+    {
+      "name":"test",
+      "data":"[{\"key\":\"listen-addr\",\"value\":\"127.0.0.1:80\"}]"
     }
   ]
 }

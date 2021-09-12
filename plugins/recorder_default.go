@@ -43,6 +43,7 @@ func NewDefaultRecorder() recording.Recorder {
 		localDir:    os.Getenv("RECORDER_TO_DIR"),
 		localFile:   os.Getenv("RECORDER_TO_FILE"),
 		agentAddr:   os.Getenv("RECORDER_TO_AGENT"),
+		esURL:       os.Getenv("RECORDER_TO_ES"),
 		agentClient: agentClient,
 	}
 
@@ -55,6 +56,7 @@ type DefaultRecorder struct {
 	localDir    string
 	localFile   string
 	agentAddr   string
+	esURL       string
 	agentClient *http.Client
 }
 
@@ -120,6 +122,25 @@ func (r *DefaultRecorder) Record(session *recording.Session) {
 		resp, err := r.agentClient.Post(r.agentAddr, "application/json", bytes.NewBuffer(b))
 		if err != nil {
 			countlog.Warn("event!recorder.failed to record to agent", "err", err, "agentAddr", r.agentAddr)
+			return
+		}
+		resp.Body.Close()
+	}
+
+	if r.esURL != "" {
+		var b []byte
+
+		if b, err = json.Marshal(session); err != nil {
+			countlog.Error("event!recorder.failed to marshal session", "err", err, "session", session)
+			return
+		}
+
+		recorder.SetDelegatedFromGoRoutineID(-1)
+		defer recorder.SetDelegatedFromGoRoutineID(0)
+
+		resp, err := r.agentClient.Post(r.esURL, "application/json", bytes.NewBuffer(b))
+		if err != nil {
+			countlog.Warn("event!recorder.failed to record to es", "err", err, "esURL", r.esURL)
 			return
 		}
 		resp.Body.Close()
