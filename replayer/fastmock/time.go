@@ -3,8 +3,8 @@ package fastmock
 import (
 	"time"
 
-	"github.com/didi/sharingan/replayer/internal"
-	"github.com/didi/sharingan/replayer/monkey"
+	"github.com/light-pan/sharingan/replayer/internal"
+	"github.com/light-pan/sharingan/replayer/monkey"
 )
 
 // MockTime mock Time

@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	// Here to import package
-	_ "github.com/didi/sharingan"
+	_ "github.com/light-pan/sharingan"
 	// TODO：Attention please! 最后import其他业务包！
 )
 

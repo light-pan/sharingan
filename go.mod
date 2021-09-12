@@ -1,4 +1,4 @@
-module github.com/didi/sharingan
+module github.com/light-pan/sharingan
 
 go 1.13
 

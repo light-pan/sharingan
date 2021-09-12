@@ -1,7 +1,7 @@
 package recorder
 
 import (
-	"github.com/didi/sharingan/recorder/koala/hook"
+	"github.com/light-pan/sharingan/recorder/koala/hook"
 )
 
 // GetCurrentGoRoutineID get current goRoutineID incase with delegatedID

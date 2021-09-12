@@ -8,7 +8,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/didi/sharingan/recorder/koala_grpc/recording"
+	"github.com/light-pan/sharingan/recorder/koala_grpc/recording"
 
 	"github.com/v2pro/plz/countlog"
 )

@@ -3,7 +3,7 @@ package sharingan_test
 import (
 	"net/http"
 
-	"github.com/didi/sharingan"
+	"github.com/light-pan/sharingan"
 )
 
 func Example() {
